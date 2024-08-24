@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #e4f8f8, #bae8f1);
+}
+
+h1 {
+    color: rgb(22, 203, 216);
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(50, 139, 218);
+    margin: 20px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+table th, table td{
+    padding: 5px;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

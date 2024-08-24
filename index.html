@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Skyler Strasburg</h1>
+    <img src="skyler-strasburg.png" alt="Skyler Strasburg" width="250" height="250">
+
+    <h2>Personal Info</h2>  
+    <ul> 
+        <li>Major: <b>Software Engineering</b></li>
+        <li>Highschool: <b>Westlake</b></li>
+        <li>Current year: <b>Sophomore</b></li>
+        <li>Favorite ice cream flavor: <b>Cherry with cherries at <a href="https://www.youtube.com/watch?v=5kv9VmiC9IY">SubZero</a></b></li>
+
+    </ul>
+
+    <h2>My Five Favorite Books</h2>
+    <ul>
+        <li>Calvin and Hobbes</li>
+        <li>The Giver</li>
+        <li>Bloodcurdling Tales of Horror and the Macabre</li>
+        <li>Harry Potter Series</li>
+        <li>Trigun manga</li>
+    </ul>
+
+    <h2>Haiku</h2>
+    <p>Beneath quiet waves,<br>Hidden truths rise with the dawn,<br>Echoes of the self.</p>
+
+    <h2>My Personal Interests</h2>
+    <p>Art</p>
+    <p>Deep Learning</p>
+    <p>Programming</p>
+    <p>Gaming</p>
+    <p>Learning new technologies</p>
+
+    <h2>Class Schedule</h2>
+    <table border="1" cellspacing="3" cellpadding="3">
+        <tr>
+            <th style="width: 5%; ">Hour</th>
+            <th style="width: 5%; ">Monday</th>
+            <th style="width: 5%; ">Tuesday</th>
+            <th style="width: 5%; ">Wednesday</th>
+            <th style="width: 5%; ">Thursday</th>
+            <th style="width: 5%; ">Friday</th>
+        </tr>
+        <tr>
+            <td>12:00 - 12:50pm</td>
+            <td rowspan="2" style="background-color: rgb(207, 224, 111);">HUM 101G</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(207, 224, 111);">HUM 101G</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(207, 224, 111);">HUM 101G</td>
+        </tr>
+        <tr>
+          </tr>
+        <tr>
+            <td>2:00 - 2:50pm</td>
+            <td rowspan="2" style="background-color: blueviolet;">PHIL 2050</td>
+            <td></td>
+            <td rowspan="2" style="background-color: blueviolet;">PHIL 2050</td>
+            <td></td>
+            <td rowspan="2" style="background-color: blueviolet;">PHIL 2050</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td>5:30 - 8:00pm</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(43, 144, 226);">CS 489R</td>
+            <td></td>
+            <td></td>          
+        </tr>
+        <tr>
+            </tr>
+            <td>1:00 - 2:15pm</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(211, 38, 202);">CS 2550</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(211, 38, 202);">CS 2550</td>
+            <td></td>
+        <tr>
+        </tr>
+            </tr>
+            <td>5:30 - 6:45pm</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(12, 211, 45);">CS 2600</td>
+            <td></td>
+            <td rowspan="2" style="background-color: rgb(12, 211, 45);">CS 2600</td>
+            <td></td>
+        <tr>
+        </tr>
+            </tr>
+            <td>Online</td>
+            <td rowspan="2" style="background-color: rgb(38, 136, 175);">MAT 1050</td>
+            <td rowspan="2" style="background-color: rgb(38, 136, 175);">MAT 1050</td>
+            <td rowspan="2" style="background-color: rgb(38, 136, 175);">MAT 1050</td>
+            <td rowspan="2" style="background-color: rgb(38, 136, 175);">MAT 1050</td>
+            <td rowspan="2" style="background-color: rgb(38, 136, 175);">MAT 1050</td>
+    </table>
+
+    <footer>       
+        <p><span id="current-date"></span></p>      
+    </footer>
+
+    <script>
+        const dateElement = document.getElementById('current-date');
+        const yearElement = document.getElementById('current-year');
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const today = new Date();
+
+        dateElement.textContent = today.toLocaleDateString(undefined, options);
+    </script>
+
+</body>
+</html>
