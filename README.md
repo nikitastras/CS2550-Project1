@@ -6,6 +6,7 @@ Setting up Nginx to host through Google Cloud on a Linux VM
 
 $ sudo apt update
 $ sudo apt install nginx -y
+
 $ sudo systemctl start nginx
 $ sudo systemctl enable nginx
 #### Allows Nginx access through firewall
