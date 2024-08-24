@@ -21,3 +21,5 @@ $ sudo systemctl status nginx
 cd /var/www/html
 
 git clone https://github.com/nikitastras/CS2550-Project1.git
+
+Google Cloud IP: http://35.226.28.138/
