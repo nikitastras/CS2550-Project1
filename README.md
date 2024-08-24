@@ -1,5 +1,7 @@
 https://66c98724b3f6bc94812f6e70--enchanting-tarsier-22c989.netlify.app/
 
+VM Image: Ubuntu 20.04 LTS
+
 Instructions:
 Setting up Nginx to host through Google Cloud on a Linux VM
 
