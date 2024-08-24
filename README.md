@@ -19,3 +19,5 @@ $ sudo ufw allow 'Nginx HTTP'
 $ sudo systemctl status nginx
 #### Default path
 cd /var/www/html
+
+git clone https://github.com/nikitastras/CS2550-Project1.git
