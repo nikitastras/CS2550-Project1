@@ -8,6 +8,7 @@ $ sudo apt update
 $ sudo apt install nginx -y
 
 $ sudo systemctl start nginx
+
 $ sudo systemctl enable nginx
 #### Allows Nginx access through firewall
 $ sudo ufw allow 'Nginx HTTP'
